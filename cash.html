@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Fruits Shop</title>
+
+        <link rel="stylesheet" href="css/sanitize.css">
+        <link rel="stylesheet" href="css/cash.css"> 
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1><a href="home.html">FRUITS SHOP</a></h1>
+            </div>
+            
+            <div class="login_">
+                <a href="login.html">ログイン</a>
+                <a href="new.html">新規登録</a>
+            </div>
+        </header>
+
+        <div class="homebar">
+            <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="home.html">
+                    <span itemprop="name">ホーム</span>
+                </a>
+                <meta itemprop="position" content="1" />
+                </li>
+            
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="strawberry.html">
+                    <span itemprop="name">商品詳細</span>
+                </a>
+                <meta itemprop="position" content="2" />
+                </li>
+            
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="cart.html">
+                    <span itemprop="name">カート</span>
+                </a>
+                <meta itemprop="position" content="3" />
+                </li>
+
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="cash.html">
+                    <span itemprop="name">レジ</span>
+                </a>
+                <meta itemprop="position" content="3" />
+            </li>
+
+            </ol>
+        </div>
+
+        <div class="message">
+            <h2>レジ</h2>
+        </div>
+
+        <div class="content">
+            <div class="detail">
+                <!-- <ul>
+                    <li>商品の小計: 10800円</li>
+                    <li>配送料: 0円</li>
+                    <li>ご請求額: <span class="red">10800円</span></li>
+                    <br>
+                    <li>支払い方法: コンビニ払い</li>
+                    <li>お届け先: 東京都中央区箱崎町0-0-0</li>
+                    <li>配達方法: 置き配</li>
+                    <li>お届け予定日: 5月1日</li>
+                </ul> -->
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>商品の小計:</th>
+                            <td>10,800円</td>
+                        </tr>
+                        <tr>
+                            <th>配送料:</th>
+                            <td>1,000円</td>
+                        </tr>
+                        <tr>
+                            <th>ご請求額:</th>
+                            <td class="red">11,800円</td>
+                        </tr>
+                        <tr>
+                            <td><br></td>
+                        </tr>
+                        <tr>
+                            <th>支払い方法:</th>
+                            <td>コンビニ払い</td>
+                        </tr>
+                        <tr>
+                            <th>お届け先:</th>
+                            <td>東京都中央区箱崎町0-0-0</td>
+                        </tr>
+                        <tr>
+                            <th>配達方法:</th>
+                            <td>置き配</td>
+                        </tr>
+                        <tr>
+                            <th>お届け予定日:</th>
+                            <td>5月1日</td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="order">
+            <a href="home.html" class="order_btn">注文を確定する</a>
+        </div>
+
+
+        <div class="return">
+            <a href="cart.html" class="btn">戻る</a>
+        </div>
+        
+        <footer>
+            <p>Copyright &copy; FRUITSSHOP .ALL rights reserved</p>
+        </footer>    
+
+    </body>
+</html>

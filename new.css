@@ -1,0 +1,207 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Lobster&family=Montserrat:ital,wght@1,200;1,400;1,500&display=swap');
+
+body {
+    font-family: "MS UI Gothic";
+    height: 80%;
+}
+
+.logo > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color:#FFC679;
+    padding-top: 12px;
+    padding-left: 12px;
+    display: flex;
+    color: white;
+    height: 70px;
+    /* font-size: 40px; */
+    /* letter-spacing: 0.2em; */
+    font-family: 'Braah One', sans-serif;
+}
+.logo {
+    font-size: 20px;
+    font-weight: border;
+}
+
+/* 入力フォーム全体 */
+.content {
+    border: solid 1px #FFC679;
+    border-radius: 5px;
+    margin: 6% auto;
+    max-width: 800px;
+}
+
+/* 会員情報入力メッセージ */
+.news {
+    padding: 10px;
+    color: #F99292;
+    line-height: 2em;
+}
+
+.information {
+    width: 100%;
+    padding: 10px;
+}
+
+/* テーブル幅の指定 */
+table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    color: #666;
+}
+
+/* 表項目 */
+th {
+    background-color: #FFF4E0;
+    color: #F99292;
+    text-align: right;
+    width: 200px;
+}
+
+.cmt::before {
+    content: "※";
+    color: red;
+    padding-right: 0.5em;
+}
+
+/* 入力内容 */
+td {
+    background-color: #FFF4E0;
+    
+}
+td > p {
+    color: #979696;
+}
+th, td {
+    border: solid 1px white;
+    padding: 6px;
+    height: 3em;
+}
+
+
+.birth {
+    display: flex;
+    padding: auto 0;
+}
+
+.child {
+    float: left;
+    width: 30%;
+}
+
+
+#birth {
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    font-size: 1.2em;
+    color: #666;
+    width: 80%;
+    margin-right: 4px;
+}
+
+#birth:focus {
+    border: 1px solid #F99292;
+    box-shadow: 0 0 3px 0 #F99292;
+    z-index: 10;
+    outline: 0;
+}
+
+#name, #post, #adress, #mail, #passcode {
+    border: 1px solid #d1d1d1;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 5px;
+    color: #666;
+    margin: 0.5em 0;
+}
+#name:focus {
+    border: 1px solid #F99292;
+    box-shadow: 0 0 3px 0 #F99292;
+    z-index: 10;
+    outline: 0;
+}
+#post:focus {
+    border: 1px solid #F99292;
+    box-shadow: 0 0 3px 0 #F99292; 
+    z-index: 10;
+    outline: 0;
+}
+#adress:focus {
+    border: 1px solid #F99292;
+    box-shadow: 0 0 3px 0 #F99292;
+    z-index: 10;
+    outline: 0;
+}
+#mail:focus {
+    border: 1px solid #F99292;
+    box-shadow: 0 0 3px 0 #F99292;
+    z-index: 10;
+    outline: 0;
+}
+#passcode:focus {
+    border: 1px solid #F99292;
+    box-shadow: 0 0 3px 0 #F99292;
+    z-index: 10;
+    outline: 0;
+}
+
+.use a {
+    text-decoration: underline;
+    color: #666;
+}
+.use a:hover {
+    color: rgb(67, 166, 247);
+}
+.use {
+    text-align: center;
+    color: #666;
+    padding: 30px 0 10px 0;
+}
+
+/* 新規登録エリア */
+.new_login {
+    width: 100%;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+/* 新規登録ボタン */
+
+.new_login a {
+    display: block;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn {
+    width: 35%;
+    background-color: #F99292;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #FFBC61;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+    /* transform: translateY(-3px); */
+    transition: 0.5s;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #FFC679;
+    padding: 6px 0;
+    margin-top: 50px;
+    color: white;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Fruits Shop</title>
+
+        <link rel="stylesheet" href="css/sanitize.css">
+        <link rel="stylesheet" href="css/new.css"> 
+        
+        <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <h1><a href="home.html">FRUITS SHOP</a></h1>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="news">
+                <h2>会員情報入力</h2>
+                <p>この度は、当サイトをご利用いただきありがとうございます。以下のフォームを入力の上、登録ボタンを押してください。</p>
+            </div>
+
+            <div class="information">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th class="cmt">お名前</th>
+                            <td>
+                                <input id="name" type="text" name="name">
+                                <p>例）鈴木 一郎</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>性別</th>
+                            <td>
+                                <input type="radio" id="sex" name="sex" value="男">男
+                                <input type="radio" id="sex" name="sex" value="女">女
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td class="birth">
+                                <div class="clild">
+                                    <input id="birth" type="number" name="birth" maxlength="4">年
+                                </div>
+
+                                <div class="clild">
+                                    <input id="birth" type="number" name="birth" maxlength="2">月
+                                </div>
+
+                                <div class="clild">
+                                    <input id="birth" type="number" name="birth" maxlength="2">日
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="cmt">郵便番号</th>
+                            <td><input id="post" type="text" name="zip" size="10" onKeyUp="AjaxZip3.zip2addr(this,'','adress','adress');"></td>
+                        </tr>
+                        <tr>
+                            <th class="cmt">住所</th>
+                            <td><input id="adress" type="text" size="60" name="adress"></td>
+                        </tr>
+                        <tr>
+                            <th class="cmt">メールアドレス</th>
+                            <td><input id="mail" type="email" name="mail"></td>
+                        </tr>
+                        <tr>
+                            <th class="cmt">パスワード</th>
+                            <td>
+                                <input id="passcode" type="password" name="passcode">
+                                <p>半角英数10文字以上入力してください</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="cmt">パスワード（確認）</th>
+                            <td><input id="passcode" type="password" name="passcode"></td>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="use">
+                <p><a href="use.html">利用規約</a>の同意が必要です。</p>
+            </div>
+            <div class="new_login">
+                <a href="sign_complete.html" class="btn">登録する</a>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy; FRUITSSHOP .ALL rights reserved</p>
+        </footer>    
+
+    </body>
+
+</html>

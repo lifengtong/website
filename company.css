@@ -1,0 +1,166 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Lobster&family=Montserrat:ital,wght@1,200;1,400;1,500&display=swap');
+
+body {
+    font-family: "MS UI Gothic";
+}
+
+.logo > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color:#FFC679;
+    /* padding: 8px; */
+    display: flex;
+    font-family: 'Braah One', sans-serif;
+}
+
+
+.logo {
+    color: white;
+    width: 35%;
+    font-size: 20px;
+    padding: 12px;
+    height: 70px;
+    /* letter-spacing: 0.2em; */
+    /* font-weight: bolder; */
+}
+
+.login_ {
+    float: right;
+    text-align: right;
+    width: 60%;
+    margin: auto;
+}
+
+.login_ a {
+    padding: 0 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.login_ a:hover {
+    color: #F99292;
+    transition: 0.5s;
+}
+
+
+.message {
+    color: #F99292;
+    padding: 2em;
+}
+
+/* table01 */
+#table01 tr {
+    border-bottom: 1px solid #b5b1b1;
+}
+
+#table01 th,
+#table01 td {
+    padding: 24px 0;
+    border: none;
+}
+
+#table01 th {
+    width: 30%;
+}
+  
+/* 入力フォーム全体 */
+.content {
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #b5b1b1;
+}
+th, td {
+    padding: 24px 0;
+    /* border: none; */
+}
+
+th {
+    width: 30%;
+}
+
+ul {
+    padding-left: 1em;
+}
+/* テーブル幅の指定 */
+/* table {
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    color: #666;
+} */
+
+/* 表項目 */
+/* th {
+    background-color: #FFBC61;
+    color: white;
+    text-align: right;
+    width: 200px;
+} */
+
+/* 入力内容 */
+/* td {
+    background-color: #FFF4E0;
+    
+}
+
+th, td {
+    border: solid 1px white;
+    padding: 6px;
+}
+
+ul {
+    padding-left: 1em;
+
+} */
+
+
+
+.return {
+    color: white;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn {
+    color: white;
+    background-color: #F99292;
+    padding: 8px 15px;
+    border-radius: 7px;
+    margin-left: 2em;
+}
+.btn:hover {
+    box-shadow: 0 1px 9px rgba(0, 0, 0, .3);
+    transition: 0.4s;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #FFC679;
+    padding: 6px 0;
+    margin-top: 50px;
+    color: white;
+}

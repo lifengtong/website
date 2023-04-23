@@ -1,0 +1,254 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Lobster&family=Montserrat:ital,wght@1,200;1,400;1,500&display=swap');
+
+body {
+    font-family: "MS UI Gothic";
+}
+
+.logo > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color:#FFC679;
+    /* padding: 8px; */
+    display: flex;
+    font-family: 'Braah One', sans-serif;
+}
+
+.logo {
+    color: white;
+    width: 35%;
+    font-size: 20px;
+    padding: 12px;
+    height: 70px;
+    /* letter-spacing: 0.2em; */
+    /* font-weight: bolder; */
+}
+
+.login_ {
+    float: right;
+    text-align: right;
+    width: 60%;
+    margin: auto;
+}
+
+.login_ a {
+    padding: 0 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.login_ a:hover {
+    color: #F99292;
+    transition: 0.5s;
+}
+
+.homebar {
+    display: flex;
+    margin-top: 1em;
+}
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 60%;
+    padding-left: 1.5em;
+}
+
+.breadcrumb li {
+    display: inline;/*横に並ぶように*/
+    list-style: none;
+    font-weight: bold;/*太字*/
+}
+
+.breadcrumb li:after {
+/* >を表示*/
+    content: '>';
+    padding: 0 0.2em;
+    color: #555;
+}
+
+.breadcrumb li:last-child:after {
+    content: '';
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.breadcrumb li:first-child a:before {
+    /*家アイコン*/
+    font-family: FontAwesome;
+    content: '\f015';
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #2e7fea;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+
+.cart {
+    /* text-align: right; */
+    /* padding-top: 2em; */
+    /* width: 100px;
+    margin: 0 0 0 auto; */
+    width: 100%;
+    /* padding-right: 5em;
+    padding-top: 2em; */
+
+}
+.cart div {
+    margin: 0 0 0 auto;
+    width: 10%;
+}
+
+.cart img {
+    transition: 0.3s;
+}
+
+.cart img:hover{
+    transform: rotate(0.05turn);
+    transition: 0.5s;
+}
+
+.cart a {
+    text-decoration: none;
+}
+
+/* 商品詳細 */
+.content {
+    border-radius: 5px;
+    margin: 2em auto;
+    max-width: 800px;
+    width: 100%;
+    max-height: 800px;
+    height: 350px;
+    /* display: inline-block; */
+    border: 1px solid #FFC679;
+    margin-bottom: 3em;
+}
+
+.photo {
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.photo img {
+    width: 250px;
+    height: auto;
+}
+
+.photo div {
+    width: 280px;
+    margin: 0 auto;
+}
+
+
+.detail {
+    display: block;
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.detail ul {
+    list-style: none;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
+
+.red {
+    color: red;
+}
+
+#number {
+    border: 1px solid rgb(115, 111, 111);
+    width: 5em;
+    border-radius: 3px;
+}
+
+
+.detail a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    /* text-align: center; */
+    /* display: block; */
+    /* margin: auto; */
+}
+
+.cart_btn {
+    color: white;
+    background-color: #F99292;
+    padding: 8px 10px;
+    border-radius: 7px;
+    margin-top: 3em;
+    text-align: center;
+    transition: 0.5s;
+    /* clear: left; */
+}
+
+.cart_btn:hover {
+    /* background-color: #F99292; */
+    box-shadow: 0 1px 9px rgba(0, 0, 0, .3);
+    /* transform: translateY(-3px); */
+    transition: 0.4s;
+}
+
+.return {
+    color: white;
+    /* padding: 8px 15px; */
+    border-radius: 3px;
+    width: 100%;
+    /* margin-left: 2em; */
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    /* text-align: center; */
+    /* display: block; */
+    /* margin: auto; */
+}
+
+.btn {
+    color: white;
+    background-color: #F99292;
+    padding: 8px 15px;
+    border-radius: 7px;
+    margin-left: 2em;
+    /* clear: left; */
+}
+.btn:hover {
+    /* background-color: #F99292; */
+    box-shadow: 0 1px 9px rgba(0, 0, 0, .3);
+    /* transform: translateY(-3px); */
+    transition: 0.4s;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #FFC679;
+    padding: 6px 0;
+    margin-top: 50px;
+    color: white;
+}

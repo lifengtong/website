@@ -1,0 +1,35 @@
+全体
+・サイトのメイン色を変わる．
+・ヘッダーのフォントを変わる．
+・サイト全体のフォントを変わる．
+・アイコンサイトの確認
+・ホームバーの調整
+
+login.html
+・SNSアイコンリンク追加
+
+shop.html/use.html/company.html
+・ホームバー追加
+
+sign_complete.html
+・デザイン変更
+
+company.html
+・会社概要
+shop.html
+・直営店舗　地図追加？
+
+home.html
+・トップページページ数リンク追加
+
+cash.html
+・お届け予定日選択
+・支払方法オプション追加
+
+strawberry.html
+・削除後のページを作る
+・数量入力欄狭くにする
+
+cart.html
+・レイアウト変更？
+（写真　詳細情報　価格　数量　削除）

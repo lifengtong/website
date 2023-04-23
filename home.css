@@ -1,0 +1,335 @@
+@import url(sanitize.css);
+
+/* PC用のCSSはメディアクエリの外に記述する */
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    /* header {
+        width: 100%;
+    } */
+    /* h1 {
+        font-size: 2.4rem;
+    }
+
+    .login_ a {
+        font-size: 1.3rem;
+    } */
+}
+
+
+body {
+    background-color: #FFF4E0;
+    font-family: "MS UI Gothic";
+}
+
+.logo > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color:#FFC679;
+    display: flex;
+    font-family: "Comic Sans MS";
+}
+
+.logo {
+    color: white;
+    width: 60%;
+    font-size: 20px;
+    padding: 7px 0 15px 15px;
+    height: 70px;
+}
+
+.login_ {
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin: auto 3rem;
+}
+
+.login_ a {
+    padding: 0 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+
+    position: relative;
+    display: inline-block;
+    padding: .3em .5em;
+
+}
+
+.login_ a:hover {
+    color: #F99292;
+    transition: 0.5s;
+}
+
+.login_ a::after {
+    content: " ";
+    position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	-webkit-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	transform: scaleX(0);
+	background-color: #F99292;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.login_ a:hover::after {
+	-webkit-transform: scaleX(1);
+	-ms-transform: scaleX(1);
+	transform: scaleX(1);
+}
+/* リンク下線をひく */
+/* .login_ a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.login_ a:after {
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000000;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: 0.3s;
+}
+  
+.login_ a:hover:after {
+    transform: translate(1, 1);
+} */
+
+
+.cart {
+    /* text-align: right; */
+    padding-top: 2em;
+    /* width: 100px;
+    margin: 0 0 0 auto; */
+    width: 100%;
+    /* padding-right: 5em;
+    padding-top: 2em; */
+
+}
+.cart div {
+    margin: 0 0 0 auto;
+    width: 10%;
+}
+
+.cart img {
+    transition: 0.3s;
+}
+
+.cart img:hover{
+    transform: rotate(0.05turn);
+    transition: 0.5s;
+}
+
+/* .cart img {
+    text-align: right;
+} */
+/* 文字幅にしたい */
+/* .cart p {
+    color: #F99292;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+} */
+
+.cart a {
+    text-decoration: none;
+}
+
+#form1{
+    position:relative;
+    width:400px;
+    height: 3em;
+    margin-bottom:15px;	
+    margin: 0 auto;
+}
+
+#sbox{
+    position:absolute;
+    width: 330px;
+    /* right: 115px; */
+    top: 0;
+    height: 50px;
+    padding: 1em;
+    border-radius: 2px 0 0 5px;
+    background: white;	
+}
+
+#sbtn{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+    background: #F99292;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;;
+    transition: 0.3s;
+    letter-spacing: 0.1em;
+}
+
+#sbtn:hover{
+    color: #666;
+    transition: 0.5s;
+}
+
+
+.message {
+    text-align: center;
+    color: #F99292;
+    font-size: 23px;
+    margin: 25px 0;
+    clear: none;
+    font-weight: bold;
+}
+
+.fruits {
+    /* border: solid 1px #FFC679; */
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+    /* max-height: 800px; */
+    display: flex;
+}
+
+.fruit {
+    border-radius: 7px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+    width: 200px;
+    height: 200px;
+    /* height: 100px; */
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color: white;
+    transition: 0.5s;
+}
+#suica {
+    height: 120px;
+    width: auto;
+}
+.fruit:hover{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+
+.photo {
+    /* height: auto;
+    width: 300px; */
+    text-align: center;
+    height: 60%;
+}
+
+.photo img {
+    width: 160px;
+    height: 120px;
+}
+
+.detail {
+    height: 40%;
+    text-align: center;
+    color: rgb(66, 66, 66);
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.detail p {
+    line-height: 2em;
+}
+.detail p:last-of-type{
+    color: red;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+.Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.Pagination-Item-Link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #F99292;
+    font-weight: bold;
+    transition: all 0.15s linear;
+}
+.Pagination-Item-Link-Icon {
+    width: 20px;
+}
+.Pagination-Item-Link.isActive {
+    pointer-events: none;
+    color: #666;
+}
+.Pagination-Item-Link:not(.isActive):hover {
+    opacity: 0.5;
+}
+
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #FFC679;
+    padding: 6px 0;
+    margin-top: 50px;
+    color: white;
+}
+
+.company {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    /* position: static; */
+    margin: 0 auto;
+    width: 40%;
+}
+
+.company li {
+    padding: 9px 25px;
+    border-right: 1.5px solid white;
+    color: white;
+    width: 33.33%;
+    margin: 1.5em 0;
+}
+
+.company a {
+    transition: 0.3s;
+}
+.company a:hover {
+    color: #666;
+    transition: 0.5s;
+}
+
+
+li:last-of-type {
+    border: none;
+}
+.company a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+

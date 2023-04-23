@@ -1,0 +1,213 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Lobster&family=Montserrat:ital,wght@1,200;1,400;1,500&display=swap');
+
+body {
+    font-family: "MS UI Gothic";
+}
+
+.logo > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color:#FFC679;
+    /* padding: 8px; */
+    display: flex;
+    font-family: 'Braah One', sans-serif;
+}
+
+
+.logo {
+    color: white;
+    width: 35%;
+    font-size: 20px;
+    padding: 12px;
+    height: 70px;
+    /* letter-spacing: 0.2em; */
+    /* font-weight: bolder; */
+}
+
+.login_ {
+    float: right;
+    text-align: right;
+    width: 60%;
+    margin: auto;
+}
+
+.login_ a {
+    padding: 0 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.login_ a:hover {
+    color: #F99292;
+    transition: 0.5s;
+}
+
+.homebar {
+    display: flex;
+    margin-top: 1em;
+}
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 60%;
+    padding-left: 1.5em;
+}
+
+.breadcrumb li {
+    display: inline;/*横に並ぶように*/
+    list-style: none;
+    font-weight: bold;/*太字*/
+}
+
+.breadcrumb li:after {
+/* >を表示*/
+    content: '>';
+    padding: 0 0.2em;
+    color: #555;
+}
+
+.breadcrumb li:last-child:after {
+    content: '';
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.breadcrumb li:first-child a:before {
+    /*家アイコン*/
+    font-family: FontAwesome;
+    content: '\f015';
+    font-weight: normal;
+    font-size: 1.1em;
+    color: #2e7fea;
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.message {
+    color: #F99292;
+    padding: 2em;
+}
+
+
+.content {
+    border: solid 1px #FFC679;
+    border-radius: 5px;
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    /* padding: 2em 5em; */
+    /* max-height: 800px; */ 
+}
+
+.detail {
+    position: absolute;
+    top: 1em;
+    left: 8em;
+}
+
+.red {
+    color: red;
+}
+
+.content ul {
+    list-style: none;
+    margin-left: 3em;
+    /* margin-bottom: 2em; */
+}
+
+/* ul {
+    text-align: center;
+} */
+
+th {
+    text-align: left;
+    line-height: 1.5em;
+    /* width: 200px; */
+}
+
+td {
+    padding-left: 1em;
+}
+.order a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.order {
+    margin-top: 1.5em;
+    text-align: center;
+}
+.order_btn {
+    color: white;
+    background-color: #F99292;
+    padding: 8px 2em;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+.order_btn:hover {
+    box-shadow: 0 1px 9px rgba(0, 0, 0, .3);
+    /* transform: translateY(-3px); */
+    transition: 0.4s;
+}
+
+
+.return {
+    color: white;
+    /* padding: 8px 15px; */
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 2em;
+    /* margin-left: 2em; */
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    /* text-align: center; */
+    /* display: block; */
+    /* margin: auto; */
+}
+
+.btn {
+    color: white;
+    background-color: #F99292;
+    padding: 8px 15px;
+    border-radius: 7px;
+    margin-left: 2em;
+    /* clear: left; */
+}
+.btn:hover {
+    /* background-color: #F99292; */
+    box-shadow: 0 1px 9px rgba(0, 0, 0, .3);
+    /* transform: translateY(-3px); */
+    transition: 0.4s;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #FFC679;
+    padding: 6px 0;
+    margin-top: 50px;
+    color: white;
+}

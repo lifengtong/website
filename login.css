@@ -1,0 +1,187 @@
+@import url(sanitize.css);
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Lobster&family=Montserrat:ital,wght@1,200;1,400;1,500&display=swap');
+
+
+body {
+    font-family: "MS UI Gothic";
+}
+
+.logo > h1 > a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    background-color:#FFC679;
+    padding-top: 12px;
+    padding-left: 12px;
+    display: flex;
+    color: white;
+    height: 70px;
+    /* font-size: 40px; */
+    /* letter-spacing: 0.2em; */
+    font-family: 'Braah One', sans-serif;
+    /* text-decoration: none; */
+}
+.logo {
+    font-size: 20px;
+    font-weight: border;
+}
+
+.head {
+    color: #FFC679;
+    text-align: center;
+    font-family: 'Lobster', 'cursive';
+    font-size: 24px;
+    padding-bottom: 1em;
+}
+
+.head h1 {
+    font-family: 'Lobster', 'cursive';
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-shadow: 0 9px 8px rgba(236, 226, 207, 0.95),0 -2px 1px #fff;
+}
+.all {
+    margin: 0 auto;
+}
+
+/* 中心内容 */
+.content {
+    font-size: 18px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 600px;
+    transform: translate(-50%, -50%);
+    /* margin-bottom: 3em; */
+}
+
+/* ログイン画面 */
+.login_content {
+    padding: 10px;
+    color: #666;
+    width:600px;
+    border-radius: 5px;
+    /* margin: 10px auto; */
+    /* border: 1px solid white; */
+    padding: 30px;
+    background-color: #FFF4E0;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+}
+
+/* mail pwを太字にする */
+.text {
+    color: #FFC679;
+    margin-bottom: 3em;
+    font-weight: bolder;
+}
+
+/* ログイン入力内容 */
+input {
+    border-bottom: 1px solid #FFC679;
+    font-size: 1.2em;
+    color: #666;
+    width: 100%;
+    /* margin: 6px 0; */
+    padding: 0.5em 0 0.1em 0;
+    /* padding: 8px 0px; */
+}
+
+/* メールアドレス入力した間隔調整 */
+#mymail {
+    margin-bottom: 15px;
+}
+
+/* ログインボタン */
+.btn {
+    width: 100%;
+    background-color: #FFC679;
+    color: white;
+    font-weight: bolder;
+    padding: 12px;
+    /* border-bottom: 1px solid #FFC679; */
+    border-radius: 3px;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, .4); */
+    transition: 0.5s;
+    
+}
+.btn:hover{
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
+ 
+
+/* PW再設定 */
+.text_content p {
+    text-align: right;
+    margin-top: 5px;
+    color: #666;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 新規登録エリア */
+.new_login {
+    width: 600px;
+    padding: 30px 28px;
+    border-radius: 3px;
+}
+
+/* 新規登録ボタン */
+.new_login button {
+    width: 100%;
+    background-color: #FFF4E0;
+    color: #FFC679;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 3px;
+    transition: 0.5s;
+    font-weight: bolder;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, .4); */
+}
+
+.new_login button:hover{
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .3);
+    transform: translateY(-3px);
+    transition: 0.5s;
+}
+
+.icon {
+    text-align: center;
+    margin: 0 1em;
+}
+
+.icon a {
+    padding: 0 2em;
+    margin-top: 1em;
+      
+}
+
+.icon img {
+    display: inline-block;
+}
+
+
+img {
+    transition: 0.5s;
+}
+img:hover{
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
+
+footer {
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    /* top: 100%-15px; */
+    top: 95.5vh;
+    text-align: center;
+    position: absolute;
+    background-color: #FFC679;
+    padding: 0.8em 0;
+}

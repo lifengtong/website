@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Fruits Shop</title>
+
+        <link rel="stylesheet" href="css/sanitize.css">
+        <link rel="stylesheet" href="css/strawberry.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1><a href="home.html">FRUITS SHOP</a></h1>
+            </div>
+
+            <!-- <div class="search">
+                <input id="serach" placeholder="リンゴ">
+            </div> -->
+            
+            <div class="login_">
+                <a href="login.html">ログイン</a>
+                <a href="new.html">新規登録</a>
+            </div>
+        </header>
+
+        <div class="homebar">
+            <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="home.html">
+                    <span itemprop="name">ホーム</span>
+                </a>
+                <meta itemprop="position" content="1" />
+                </li>
+            
+                <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="strawberry.html">
+                    <span itemprop="name">商品詳細</span>
+                </a>
+                <meta itemprop="position" content="2" />
+                </li>
+            
+                <!-- <li itemprop="itemListElement" itemscope
+                    itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="カテゴリー2のURL">
+                    <span itemprop="name">カテゴリー2</span>
+                </a>
+                <meta itemprop="position" content="3" />
+                </li> -->
+            </ol>
+
+            <div class="cart">
+                <!-- <a href="cart.html"><p>カート</p></a> -->
+                <a href="cart.html">
+                    <div><img src="img/cart.svg" width="50px"></a></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="photo">
+                <img src="img/strawberry.jpg" alt="strawberry">
+                <div><p>小さな草の実いちごは人気も高く、中でもアイベリーは大粒で美しく艶もよく香り高いこの季節の代表品種です。</p></div>
+            </div>
+
+            <div class="detail">
+                <ul>
+                    <li>販売開始期間: 5月初旬～8月</li>
+                    <li>賞味期限: 到着後、約1日～3日以内</li>
+                    <li>産地：山梨</li>
+                    <li>契約農家：長嶺食彩園</li>
+                    <li class="red">在庫あり</li>
+                    <br>
+                    <li>サイズ: 大粒・12個</li>
+                    <li>数量: 
+                        <input id="number" type="number" name="number">個
+                    </li>
+                    <li class="price">価格:<span class="red">2,800円</span>
+                    </li>
+                </ul>
+
+                <a href="cart.html" class="cart_btn">カートに入れる</a>
+    
+            </div>
+        </div>
+
+
+
+        <div class="return">
+            <a href="home.html" class="btn">戻る</a>
+        </div>
+
+
+
+        <footer>
+            <p>Copyright &copy; FRUITSSHOP .ALL rights reserved</p>
+        </footer>    
+
+    </body>
+</html>
